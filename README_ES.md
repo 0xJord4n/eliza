@@ -39,7 +39,7 @@
 
 ## 🚀 Inicio Rápido
 
-### Requisitos Previos
+### Prerrequisitos
 
 - [Python 2.7+](https://www.python.org/downloads/)
 - [Node.js 23+](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
@@ -71,7 +71,7 @@ git checkout $(git describe --tags --abbrev=0)
 
 ### Inicia Eliza con Gitpod
 
-[![Abrir en Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/elizaos/eliza/tree/main)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/elizaos/eliza/tree/main)
 
 ### Edita el archivo .env
 
@@ -83,7 +83,7 @@ cp .env.example .env
 
 Nota: .env es opcional. Si planeas ejecutar múltiples agentes distintos, puedes pasar secretos a través del JSON del personaje.
 
-### Iniciar Eliza Automáticamente
+### Inicia Eliza Automáticamente
 
 Esto ejecutará todo para configurar el proyecto e iniciar el bot con el personaje predeterminado.
 
@@ -91,7 +91,7 @@ Esto ejecutará todo para configurar el proyecto e iniciar el bot con el persona
 sh scripts/start.sh
 ```
 
-### Edita el archivo del personaje
+### Edita el archivo de personaje
 
 1. Abre `packages/core/src/defaultCharacter.ts` para modificar el personaje predeterminado. Descomenta y edita.
 
@@ -99,9 +99,9 @@ sh scripts/start.sh
     - Usa `pnpm start --characters="path/to/your/character.json"`
     - Se pueden cargar múltiples archivos de personajes simultáneamente
 3. Conéctate con X (Twitter)
-    - cambia `"clients": []` a `"clients": ["twitter"]` en el archivo del personaje para conectarte con X
+    - cambia `"clients": []` a `"clients": ["twitter"]` en el archivo de personaje para conectarte con X
 
-### Iniciar Eliza Manualmente
+### Inicia Eliza Manualmente
 
 ```bash
 pnpm i
@@ -122,7 +122,7 @@ pnpm install --include=optional sharp
 
 ### Comunidad y contacto
 
-- [Problemas en GitHub](https://github.com/elizaos/eliza/issues). Mejor para: errores que encuentres usando Eliza y propuestas de características.
+- [GitHub Issues](https://github.com/elizaos/eliza/issues). Mejor para: errores que encuentres usando Eliza y propuestas de características.
 - [Discord](https://discord.gg/ai16z). Mejor para: compartir tus aplicaciones y pasar el rato con la comunidad.
 
 ## Contribuidores
@@ -133,4 +133,4 @@ pnpm install --include=optional sharp
 
 ## Historial de Estrellas
 
-[![Gráfico de Historial de Estrellas](https://api.star-history.com/svg?repos=elizaos/eliza&type=Date)](https://star-history.com/#elizaos/eliza&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=elizaos/eliza&type=Date)](https://star-history.com/#elizaos/eliza&Date)

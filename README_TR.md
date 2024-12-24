@@ -64,8 +64,8 @@ Daha sonra Eliza'nızı nasıl özelleştireceğinizi öğrenmek için [Doküman
 # Depoyu klonlayın
 git clone https://github.com/elizaos/eliza.git
 
-# En son sürüme geçin
-# Bu proje hızlı bir şekilde iterasyon yapar, bu yüzden en son sürüme geçmenizi öneririz
+# En son sürüme geçiş yapın
+# Bu proje hızlı bir şekilde iterasyon yapar, bu yüzden en son sürüme geçiş yapmanızı öneririz
 git checkout $(git describe --tags --abbrev=0)
 ```
 
@@ -81,7 +81,7 @@ git checkout $(git describe --tags --abbrev=0)
 cp .env.example .env
 ```
 
-Not: .env isteğe bağlıdır. Birden fazla farklı ajan çalıştırmayı planlıyorsanız, karakter JSON üzerinden gizli bilgileri geçebilirsiniz.
+Not: .env isteğe bağlıdır. Birden fazla farklı ajan çalıştırmayı planlıyorsanız, karakter JSON üzerinden gizli bilgileri iletebilirsiniz.
 
 ### Eliza'yı Otomatik Başlatın
 
@@ -98,7 +98,7 @@ sh scripts/start.sh
 2. Özel karakterleri yüklemek için:
     - `pnpm start --characters="path/to/your/character.json"` komutunu kullanın
     - Birden fazla karakter dosyası aynı anda yüklenebilir
-3. X (Twitter) ile bağlanın
+3. X (Twitter) ile bağlantı kurun
     - karakter dosyasında `"clients": []` ifadesini `"clients": ["twitter"]` olarak değiştirin
 
 ### Eliza'yı Manuel Başlatın

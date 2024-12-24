@@ -45,7 +45,7 @@
 - [Node.js 23+](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 - [pnpm](https://pnpm.io/installation)
 
-> **Lưu ý cho người dùng Windows:** [WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install-manual) là cần thiết.
+> **Lưu ý cho người dùng Windows:** [WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install-manual) là bắt buộc.
 
 ### Sử dụng Starter (Khuyến nghị)
 
@@ -75,7 +75,7 @@ git checkout $(git describe --tags --abbrev=0)
 
 ### Chỉnh sửa tệp .env
 
-Sao chép .env.example thành .env và điền các giá trị thích hợp.
+Sao chép .env.example thành .env và điền các giá trị phù hợp.
 
 ```
 cp .env.example .env
@@ -125,7 +125,7 @@ pnpm install --include=optional sharp
 - [Vấn đề trên GitHub](https://github.com/elizaos/eliza/issues). Tốt nhất cho: lỗi bạn gặp phải khi sử dụng Eliza và đề xuất tính năng.
 - [Discord](https://discord.gg/ai16z). Tốt nhất cho: chia sẻ ứng dụng của bạn và giao lưu với cộng đồng.
 
-## Những người đóng góp
+## Người đóng góp
 
 <a href="https://github.com/elizaos/eliza/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=elizaos/eliza" />

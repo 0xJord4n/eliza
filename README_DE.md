@@ -21,7 +21,7 @@
 - 👥 Unterstützung für mehrere Agenten und Räume
 - 📚 Einfaches Einlesen und Interagieren mit Ihren Dokumenten
 - 💾 Abrufbarer Speicher und Dokumentenspeicher
-- 🚀 Hochgradig erweiterbar - Erstellen Sie Ihre eigenen Aktionen und Clients
+- 🚀 Hochgradig erweiterbar - erstellen Sie Ihre eigenen Aktionen und Clients
 - ☁️ Unterstützt viele Modelle (lokales Llama, OpenAI, Anthropic, Groq, etc.)
 - 📦 Funktioniert einfach!
 
@@ -45,7 +45,7 @@
 - [Node.js 23+](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 - [pnpm](https://pnpm.io/installation)
 
-> **Hinweis für Windows-Nutzer:** [WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install-manual) ist erforderlich.
+> **Hinweis für Windows-Benutzer:** [WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install-manual) ist erforderlich.
 
 ### Verwenden Sie den Starter (Empfohlen)
 

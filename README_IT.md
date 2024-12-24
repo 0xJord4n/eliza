@@ -58,7 +58,7 @@ pnpm i && pnpm build && pnpm start
 
 Poi leggi la [Documentazione](https://elizaos.github.io/eliza/) per imparare come personalizzare il tuo Eliza.
 
-### Avvia Eliza Manualmente (Consigliato solo se sai cosa stai facendo)
+### Avvia Manualmente Eliza (Consigliato solo se sai cosa stai facendo)
 
 ```bash
 # Clona il repository
@@ -101,7 +101,7 @@ sh scripts/start.sh
 3. Connettiti con X (Twitter)
     - cambia `"clients": []` in `"clients": ["twitter"]` nel file del personaggio per connetterti con X
 
-### Avvia Eliza Manualmente
+### Avvia Manualmente Eliza
 
 ```bash
 pnpm i

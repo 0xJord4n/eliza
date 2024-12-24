@@ -47,7 +47,7 @@
 
 > **Windows 用户注意：** 需要 [WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install-manual)。
 
-### 使用入门（推荐）
+### 使用入门模板（推荐）
 
 ```bash
 git clone https://github.com/elizaos/eliza-starter.git
