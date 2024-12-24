@@ -1,181 +1,136 @@
-# Eliza
+# Eliza 🤖
 
-<img src="./docs/static/img/eliza_banner.jpg" alt="Banner de Eliza" width="100%" />
+<div align="center">
+  <img src="./docs/static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
+</div>
 
-## Funcionalidades
+<div align="center">
 
--   🛠 Conectores completos para Discord, Twitter y Telegram
--   👥 Soporte para múltiples agentes y salas
--   📚 Ingestión e interacción sencilla con documentos
--   💾 Memoria recuperable y almacenamiento de documentos
--   🚀 Altamente extensible - cree sus propias acciones y clientes para expandir capacidades
--   ☁️ Soporta múltiples modelos, incluidos Llama local, OpenAI, Anthropic, Groq y más
--   📦 Funciona perfectamente
+📖 [Documentación](https://elizaos.github.io/eliza/) | 🎯 [Ejemplos](https://github.com/thejoven/awesome-eliza)
 
-## Usos
+</div>
 
--   🤖 Chatbots
--   🕵️ Agentes autónomos
--   📈 Gestión de procesos empresariales
--   🎮 NPCs en videojuegos
+## 🌍 Traducciones del README
 
-# Primeros Pasos
+[中文说明](./README_CN.md) | [日本語の説明](./README_JA.md) | [한국어 설명](./README_KOR.md) | [Français](./README_FR.md) | [Português](./README_PTBR.md) | [Türkçe](./README_TR.md) | [Русский](./README_RU.md) | [Español](./README_ES.md) | [Italiano](./README_IT.md) | [ไทย](./README_TH.md) | [Deutsch](./README_DE.md) | [Tiếng Việt](./README_VI.md) | [עִברִית](https://github.com/elizaos/Elisa/blob/main/README_HE.md)
 
-**Requisitos (OBLIGATORIOS):**
+## ✨ Características
 
--   [Python 2.7+](https://www.python.org/downloads/)
--   [Node.js 23.3+](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
--   [pnpm](https://pnpm.io/installation)
+- 🛠️ Conectores completos para Discord, Twitter y Telegram
+- 🔗 Soporte para cada modelo (Llama, Grok, OpenAI, Anthropic, etc.)
+- 👥 Soporte multi-agente y de salas
+- 📚 Ingesta e interacción fácil con tus documentos
+- 💾 Memoria recuperable y almacenamiento de documentos
+- 🚀 Altamente extensible - crea tus propias acciones y clientes
+- ☁️ Soporta muchos modelos (Llama local, OpenAI, Anthropic, Groq, etc.)
+- 📦 ¡Funciona sin más!
 
-### Edite el archivo .env
+## Tutoriales en Video
 
--   Copie el archivo .env.example a .env y complete los valores apropiados
--   Edite las variables de entorno de TWITTER para agregar nombre de usuario y contraseña del bot
+[Escuela de Desarrollo de Agentes de IA](https://www.youtube.com/watch?v=ArptLpQiKfI&list=PLx5pnFXdPTRzWla0RaOxALTSTnVq53fKL)
 
-### Edite el archivo de personaje
+## 🎯 Casos de Uso
 
--   Revise el archivo `src/core/defaultCharacter.ts` - puede modificarlo
--   También puede cargar personajes con el comando `pnpm start --characters="path/to/your/character.json"` y ejecutar múltiples bots simultáneamente.
+- 🤖 Chatbots
+- 🕵️ Agentes Autónomos
+- 📈 Manejo de Procesos de Negocio
+- 🎮 NPCs en Videojuegos
+- 🧠 Trading
 
-Después de configurar el archivo .env y el archivo de personaje, puede iniciar el bot con:
+## 🚀 Inicio Rápido
+
+### Requisitos Previos
+
+- [Python 2.7+](https://www.python.org/downloads/)
+- [Node.js 23+](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+- [pnpm](https://pnpm.io/installation)
+
+> **Nota para Usuarios de Windows:** Se requiere [WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install-manual).
+
+### Usa el Starter (Recomendado)
+
+```bash
+git clone https://github.com/elizaos/eliza-starter.git
+cd eliza-starter
+cp .env.example .env
+pnpm i && pnpm build && pnpm start
+```
+
+Luego lee la [Documentación](https://elizaos.github.io/eliza/) para aprender cómo personalizar tu Eliza.
+
+### Iniciar Eliza Manualmente (Solo recomendado si sabes lo que estás haciendo)
+
+```bash
+# Clona el repositorio
+git clone https://github.com/elizaos/eliza.git
+
+# Cambia a la última versión
+# Este proyecto itera rápido, por lo que recomendamos cambiar a la última versión
+git checkout $(git describe --tags --abbrev=0)
+```
+
+### Inicia Eliza con Gitpod
+
+[![Abrir en Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/elizaos/eliza/tree/main)
+
+### Edita el archivo .env
+
+Copia .env.example a .env y completa los valores apropiados.
 
 ```
+cp .env.example .env
+```
+
+Nota: .env es opcional. Si planeas ejecutar múltiples agentes distintos, puedes pasar secretos a través del JSON del personaje.
+
+### Iniciar Eliza Automáticamente
+
+Esto ejecutará todo para configurar el proyecto e iniciar el bot con el personaje predeterminado.
+
+```bash
+sh scripts/start.sh
+```
+
+### Edita el archivo del personaje
+
+1. Abre `packages/core/src/defaultCharacter.ts` para modificar el personaje predeterminado. Descomenta y edita.
+
+2. Para cargar personajes personalizados:
+    - Usa `pnpm start --characters="path/to/your/character.json"`
+    - Se pueden cargar múltiples archivos de personajes simultáneamente
+3. Conéctate con X (Twitter)
+    - cambia `"clients": []` a `"clients": ["twitter"]` en el archivo del personaje para conectarte con X
+
+### Iniciar Eliza Manualmente
+
+```bash
 pnpm i
+pnpm build
 pnpm start
+
+# El proyecto itera rápido, a veces necesitas limpiar el proyecto si estás regresando al proyecto
+pnpm clean
 ```
 
-# Personalizando a Eliza
+#### Requisitos Adicionales
 
-### Agregando acciones personalizadas
-
-Para evitar conflictos en el directorio central, se recomienda agregar acciones personalizadas a un directorio `custom_actions` y luego agregarlas al archivo `elizaConfig.yaml`. Consulte el archivo `elizaConfig.example.yaml` para un ejemplo.
-
-## Ejecución con Diferentes Modelos
-
-### Ejecutar con Llama
-
-Puede ejecutar modelos Llama 70B o 405B configurando la variable de ambiente `XAI_MODEL` en `meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo` o `meta-llama/Meta-Llama-3.1-405B-Instruct`
-
-### Ejecutar con Grok
-
-Puede ejecutar modelos Grok configurando la variable de ambiente `XAI_MODEL` en `grok-beta`
-
-### Ejecutar con OpenAI
-
-Puede ejecutar modelos OpenAI configurando la variable de ambiente `XAI_MODEL` en `gpt-4o-mini` o `gpt-4o`
-
-## Requisitos Adicionales
-
-Puede ser necesario instalar Sharp. Si encuentra un error al iniciar, intente instalarlo con:
+Puede que necesites instalar Sharp. Si ves un error al iniciar, intenta instalarlo con el siguiente comando:
 
 ```
 pnpm install --include=optional sharp
 ```
 
-# Configuración del Entorno
+### Comunidad y contacto
 
-Deberá agregar variables de ambiente a su archivo .env para conectarse a varias plataformas:
+- [Problemas en GitHub](https://github.com/elizaos/eliza/issues). Mejor para: errores que encuentres usando Eliza y propuestas de características.
+- [Discord](https://discord.gg/ai16z). Mejor para: compartir tus aplicaciones y pasar el rato con la comunidad.
 
-```
-# Variables de ambiente obligatorias
-DISCORD_APPLICATION_ID=
-DISCORD_API_TOKEN= # Token del bot
-OPENAI_API_KEY=sk-* # Clave API de OpenAI, comenzando con sk-
-ELEVENLABS_XI_API_KEY= # Clave API de ElevenLabs
-GOOGLE_GENERATIVE_AI_API_KEY= # Clave API de Gemini
+## Contribuidores
 
-# CONFIGURACIONES DE ELEVENLABS
-ELEVENLABS_MODEL_ID=eleven_multilingual_v2
-ELEVENLABS_VOICE_ID=21m00Tcm4TlvDq8ikWAM
-ELEVENLABS_VOICE_STABILITY=0.5
-ELEVENLABS_VOICE_SIMILARITY_BOOST=0.9
-ELEVENLABS_VOICE_STYLE=0.66
-ELEVENLABS_VOICE_USE_SPEAKER_BOOST=false
-ELEVENLABS_OPTIMIZE_STREAMING_LATENCY=4
-ELEVENLABS_OUTPUT_FORMAT=pcm_16000
+<a href="https://github.com/elizaos/eliza/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=elizaos/eliza" />
+</a>
 
-TWITTER_DRY_RUN=false
-TWITTER_USERNAME= # Nombre de usuario de la cuenta
-TWITTER_PASSWORD= # Contraseña de la cuenta
-TWITTER_EMAIL= # Correo electrónico de la cuenta
+## Historial de Estrellas
 
-X_SERVER_URL=
-XAI_API_KEY=
-XAI_MODEL=
-
-# Para consultar a Claude
-ANTHROPIC_API_KEY=
-
-# EVM
-EVM_PRIVATE_KEY=EXAMPLE_WALLET_PRIVATE_KEY
-
-# Solana
-SOLANA_PRIVATE_KEY=EXAMPLE_WALLET_PRIVATE_KEY
-SOLANA_PUBLIC_KEY=EXAMPLE_WALLET_PUBLIC_KEY
-
-# Fallback Wallet Configuration (deprecated)
-WALLET_PRIVATE_KEY=EXAMPLE_WALLET_PRIVATE_KEY
-WALLET_PUBLIC_KEY=EXAMPLE_WALLET_PUBLIC_KEY
-
-BIRDEYE_API_KEY=
-
-SOL_ADDRESS=So11111111111111111111111111111111111111112
-SLIPPAGE=1
-RPC_URL=https://api.mainnet-beta.solana.com
-HELIUS_API_KEY=
-
-## Telegram
-TELEGRAM_BOT_TOKEN=
-
-TOGETHER_API_KEY=
-```
-
-# Configuración de Inferencia Local
-
-### Configuración CUDA
-
-Si tiene una GPU NVIDIA, puede instalar CUDA para acelerar significativamente la inferencia local.
-
-```
-pnpm install
-npx --no node-llama-cpp source download --gpu cuda
-```
-
-Asegúrese de tener instalado el CUDA Toolkit, incluyendo cuDNN y cuBLAS.
-
-### Ejecución local
-
-Agregue XAI_MODEL y configúrelo con una de las opciones de [Ejecutar con Llama](#ejecutar-con-llama) - puede dejar X_SERVER_URL y XAI_API_KEY en blanco, descargará el modelo de HuggingFace y realizará consultas localmente
-
-# Clientes
-
-## Bot de Discord
-
-Para ayuda con la configuración de su Bot de Discord, consulte: https://discordjs.guide/preparations/setting-up-a-bot-application.html
-
-# Desarrollo
-
-## Pruebas
-
-Para ejecutar la suite de pruebas:
-
-```bash
-pnpm test           # Ejecutar pruebas una vez
-pnpm test:watch    # Ejecutar pruebas en modo observación
-```
-
-Para pruebas específicas de base de datos:
-
-```bash
-pnpm test:sqlite   # Ejecutar pruebas con SQLite
-pnpm test:sqljs    # Ejecutar pruebas con SQL.js
-```
-
-Las pruebas están escritas con Jest y se pueden encontrar en archivos `src/**/*.test.ts`. El entorno de pruebas está configurado para:
-
--   Cargar variables de ambiente desde `.env.test`
--   Usar un límite de 2 minutos para pruebas de larga duración
--   Soportar módulos ESM
--   Ejecutar pruebas en secuencia (--runInBand)
-
-Para crear nuevas pruebas, agregue un archivo `.test.ts` junto al código que está probando.
+[![Gráfico de Historial de Estrellas](https://api.star-history.com/svg?repos=elizaos/eliza&type=Date)](https://star-history.com/#elizaos/eliza&Date)

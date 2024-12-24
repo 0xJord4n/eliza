@@ -1,9 +1,7 @@
-<div align="rtl" dir="rtl">
-
-# אלייזה 🤖
+# אליזה 🤖
 
 <div align="center">
-  <img src="./docs/static/img/eliza_banner.jpg" alt="אלייזה באנר" width="100%" />
+  <img src="./docs/static/img/eliza_banner.jpg" alt="אליזה באנר" width="100%" />
 </div>
 
 <div align="center">
@@ -12,156 +10,111 @@
 
 </div>
 
-<div align="center">
+## 🌍 תרגומי README
 
-[中文说明](https://github.com/elizaos/Elisa/blob/main/README_CN.md) | [日本語の説明](https://github.com/elizaos/Elisa/blob/main/README_JA.md) | [한국어 설명](https://github.com/elizaos/Elisa/blob/main/README_KOR.md) | [Français](https://github.com/elizaos/Elisa/blob/main/README_FR.md) | [Português](https://github.com/elizaos/Elisa/blob/main/README_PTBR.md) | [Türkçe](TR.md) | [Русский](https://github.com/elizaos/Elisa/blob/main/README_RU.md) | [Español](https://github.com/elizaos/Elisa/blob/main/README_ES.md) | [Italiano](https://github.com/elizaos/Elisa/blob/main/README_IT.md) | [ไทย](https://github.com/elizaos/Elisa/blob/main/README_TH.md) | [Deutsch](https://github.com/elizaos/Elisa/blob/main/README_DE.md) | [עִברִית](https://github.com/elizaos/Elisa/blob/main/README_HE.md)
-
-</div>
-
-<div dir="rtl" align="right">
+[中文说明](./README_CN.md) | [日本語の説明](./README_JA.md) | [한국어 설명](./README_KOR.md) | [Français](./README_FR.md) | [Português](./README_PTBR.md) | [Türkçe](./README_TR.md) | [Русский](./README_RU.md) | [Español](./README_ES.md) | [Italiano](./README_IT.md) | [ไทย](./README_TH.md) | [Deutsch](./README_DE.md) | [Tiếng Việt](./README_VI.md) | [עִברִית](https://github.com/elizaos/Elisa/blob/main/README_HE.md)
 
 ## ✨ תכונות
 
 - 🛠️ מחברים מלאים לדיסקורד, טוויטר וטלגרם
 - 🔗 תמיכה בכל מודל (Llama, Grok, OpenAI, Anthropic, וכו')
 - 👥 תמיכה בריבוי סוכנים וחדרים
-- 📚 קל לשלב ולהשתמש במסמכים שלך
-- 💾 זיכרון ומאגר מסמכים הניתנים לשליפה
-- 🚀 ניתן להרחבה רבה - יצירת פעולות ולקוחות משלך
-- ☁️ תומך בהרבה מודלים (local Llama, OpenAI, Anthropic, Groq ,
-  וכו')
+- 📚 קל לבלוע ולתקשר עם המסמכים שלך
+- 💾 זיכרון ומאגר מסמכים ניתנים לשליפה
+- 🚀 ניתן להרחבה רבה - צור פעולות ולקוחות משלך
+- ☁️ תומך בהרבה מודלים (Llama מקומי, OpenAI, Anthropic, Groq, וכו')
 - 📦 פשוט עובד!
 
-</div>
+## מדריכי וידאו
+
+[AI Agent Dev School](https://www.youtube.com/watch?v=ArptLpQiKfI&list=PLx5pnFXdPTRzWla0RaOxALTSTnVq53fKL)
 
 ## 🎯 מקרי שימוש
 
-<div align="right">
--   🤖 צ'טבוטים
-</div>
-<div align="right">
--   🕵️ סוכנים אוטונומיים
-</div>
-<div align="right">
--   📈 טיפול בתהליכים עסקיים
-</div>
-<div align="right">
--   🎮 במשחקי וידאו (NPCs)
-</div>
-<div align="right">
--   🧠 מסחר
-</div>
+- 🤖 צ'אטבוטים
+- 🕵️ סוכנים אוטונומיים
+- 📈 ניהול תהליכים עסקיים
+- 🎮 NPCs במשחקי וידאו
+- 🧠 מסחר
 
 ## 🚀 התחלה מהירה
 
-<div align="right">
-
 ### דרישות מוקדמות
 
-[Python 2.7+](https://www.python.org/downloads/) -
+- [Python 2.7+](https://www.python.org/downloads/)
+- [Node.js 23+](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+- [pnpm](https://pnpm.io/installation)
 
-[Node.js 23+](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) -
+> **הערה למשתמשי Windows:** [WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install-manual) נדרש.
 
-[pnpm](https://pnpm.io/installation) -
+### השתמש ב-Starter (מומלץ)
 
-> **הערה למשתמשי Windows:** נדרש [WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install-manual)
-
-</div>
-
-### שימוש ב-Starter (מומלץ)
-
-<div align="right" dir="ltr">
-
-```
+```bash
 git clone https://github.com/elizaos/eliza-starter.git
-
+cd eliza-starter
 cp .env.example .env
-
-pnpm i && pnpm start
+pnpm i && pnpm build && pnpm start
 ```
 
-</div>
+לאחר מכן קרא את [התיעוד](https://elizaos.github.io/eliza/) כדי ללמוד כיצד להתאים אישית את אליזה שלך.
 
-לאחר מכן קרא את [התיעוד](https://elizaos.github.io/eliza/) כדי ללמוד כיצד להתאים את אלייזה.
+### הפעל את אליזה ידנית (מומלץ רק אם אתה יודע מה אתה עושה)
 
-### התחלה ידנית של אלייזה (מומלץ רק למי שיודע מה הוא עושה)
-
-<div align="right">
-
-```
-# שכפול המאגר
+```bash
+# שיבוט המאגר
 git clone https://github.com/elizaos/eliza.git
 
 # מעבר לגרסה האחרונה
+# הפרויקט מתעדכן במהירות, לכן אנו ממליצים לעבור לגרסה האחרונה
 git checkout $(git describe --tags --abbrev=0)
 ```
 
-</div>
+### הפעל את אליזה עם Gitpod
 
-### התחלת אלייזה עם Gitpod
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/elizaos/eliza/tree/main)
 
-<div align="right">
+### ערוך את קובץ ה-.env
 
-[![פתח ב-Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/elizaos/eliza/tree/main)
-
-</div>
-
-### עריכת קובץ .env
-
-<div align="right">
-
-העתק את .env.example ל-.env ומלא את הערכים המתאימים.
+העתק .env.example ל-.env ומלא את הערכים המתאימים.
 
 ```
 cp .env.example .env
 ```
 
-</div>
+הערה: .env הוא אופציונלי. אם אתה מתכנן להפעיל מספר סוכנים נפרדים, תוכל להעביר סודות דרך ה-JSON של הדמות
 
-הערה: .env הוא אופציונלי. אם אתם מתכננים להפעיל מספר סוכנים נפרדים, ניתן להעביר סודות דרך JSON הדמות.
+### הפעל את אליזה אוטומטית
 
-### התחלה אוטומטית של אלייזה
-
-פעולה זו תפעיל הכל כדי להגדיר את הפרויקט ולהתחיל את הבוט עם הדמות המובנית.
-
-<div align="right">
+זה יריץ הכל כדי להגדיר את הפרויקט ולהפעיל את הבוט עם הדמות המוגדרת כברירת מחדל.
 
 ```bash
 sh scripts/start.sh
 ```
 
-</div>
+### ערוך את קובץ הדמות
 
-### עריכת קובץ הדמות
+1. פתח `packages/core/src/defaultCharacter.ts` כדי לשנות את הדמות המוגדרת כברירת מחדל. בטל הערה וערוך.
 
-1. פתח את `agent/src/character.ts` כדי לשנות את דמות ברירת המחדל. בטל הערה וערוך.
-
-2. לטעינת דמויות מותאמות אישית:
-
+2. כדי לטעון דמויות מותאמות אישית:
     - השתמש ב-`pnpm start --characters="path/to/your/character.json"`
-    - ניתן לטעון מספר קבצי דמויות בו זמנית.
+    - ניתן לטעון מספר קבצי דמויות בו זמנית
+3. התחבר עם X (טוויטר)
+    - שנה `"clients": []` ל-`"clients": ["twitter"]` בקובץ הדמות כדי להתחבר עם X
 
-3. התחבר עם X (טוויטר):
-    - שנה `"clients": []` ל-`"clients": ["twitter"]` בקובץ הדמות כדי להתחבר ל-X.
-
-### התחלה ידנית של אלייזה
-
-<div align="right">
+### הפעל את אליזה ידנית
 
 ```bash
 pnpm i
 pnpm build
 pnpm start
 
-# לעיתים צריך לנקות את הפרויקט אם חוזרים אליו לאחר זמן
+# הפרויקט מתעדכן במהירות, לפעמים תצטרך לנקות את הפרויקט אם אתה חוזר אליו
 pnpm clean
 ```
 
-</div>
-
 #### דרישות נוספות
 
-ייתכן שתצטרך להתקין את Sharp. אם אתה רואה שגיאה בעת ההפעלה, נסה להתקין עם הפקודה הבאה:
+ייתכן שתצטרך להתקין את Sharp. אם אתה רואה שגיאה בעת ההפעלה, נסה להתקין אותו עם הפקודה הבאה:
 
 ```
 pnpm install --include=optional sharp
@@ -169,26 +122,15 @@ pnpm install --include=optional sharp
 
 ### קהילה ויצירת קשר
 
-<div align="right">
-
-[GitHub Issues](https://github.com/elizaos/eliza/issues) מתאים ביותר עבור: באגים ופרופוזיציות לתכונות -
-
-[Discord](https://discord.gg/ai16z) מתאים ביותר עבור: שיתוף היישומים שלך והשתתפות בקהילה -
-
-</div>
+- [בעיות ב-GitHub](https://github.com/elizaos/eliza/issues). הכי טוב עבור: באגים שאתה נתקל בהם בשימוש באליזה, והצעות לפיצ'רים.
+- [דיסקורד](https://discord.gg/ai16z). הכי טוב עבור: שיתוף היישומים שלך והתחברות עם הקהילה.
 
 ## תורמים
-
-<!-- <div align="right"> -->
 
 <a href="https://github.com/elizaos/eliza/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=elizaos/eliza" />
 </a>
 
-<!-- </div> -->
-
 ## היסטוריית כוכבים
 
-[![תרשים היסטוריית כוכבים](https://api.star-history.com/svg?repos=elizaos/eliza&type=Date)](https://star-history.com/#elizaos/eliza&Date)
-
-</div>
+[![Star History Chart](https://api.star-history.com/svg?repos=elizaos/eliza&type=Date)](https://star-history.com/#elizaos/eliza&Date)

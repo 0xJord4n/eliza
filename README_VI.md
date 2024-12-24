@@ -10,120 +10,127 @@
 
 </div>
 
+## 🌍 Bản dịch README
+
+[中文说明](./README_CN.md) | [日本語の説明](./README_JA.md) | [한국어 설명](./README_KOR.md) | [Français](./README_FR.md) | [Português](./README_PTBR.md) | [Türkçe](./README_TR.md) | [Русский](./README_RU.md) | [Español](./README_ES.md) | [Italiano](./README_IT.md) | [ไทย](./README_TH.md) | [Deutsch](./README_DE.md) | [Tiếng Việt](./README_VI.md) | [עִברִית](https://github.com/elizaos/Elisa/blob/main/README_HE.md)
+
 ## ✨ Tính năng
 
-- 🛠️ Phương thức kết nối đầy đủ tính năng với Discord, Twitter và Telegram
-- 🔗 Hỗ trợ mọi mô hình ngôn ngữ lớn (Llama, Grok, OpenAI, Anthropic, v.v.)
-- 👥 Hỗ trợ nhiều tác nhân và phòng trò chuyện
-- 📚 Dễ dàng tiếp nhận và tương tác với tài liệu của bạn
-- 💾 Bộ nhớ và kho lưu trữ tài liệu có thể truy xuất
-- 🚀 Có khả năng mở rộng cao - tạo hành động và ứng dụng của riêng bạn
-- ☁️ Hỗ trợ nhiều mô hình cùng lúc (Llama, OpenAI, Anthropic, Groq, v.v.)
-- 📦 Đơn giản là nó hoạt động!
+- 🛠️ Kết nối đầy đủ với Discord, Twitter và Telegram
+- 🔗 Hỗ trợ cho mọi mô hình (Llama, Grok, OpenAI, Anthropic, v.v.)
+- 👥 Hỗ trợ đa tác nhân và phòng
+- 📚 Dễ dàng nhập và tương tác với tài liệu của bạn
+- 💾 Bộ nhớ và kho tài liệu có thể truy xuất
+- 🚀 Rất dễ mở rộng - tạo hành động và khách hàng của riêng bạn
+- ☁️ Hỗ trợ nhiều mô hình (Llama cục bộ, OpenAI, Anthropic, Groq, v.v.)
+- 📦 Chỉ cần hoạt động!
 
-## 🎯 Các trường hợp sử dụng
+## Video Hướng dẫn
+
+[Trường Phát triển Tác nhân AI](https://www.youtube.com/watch?v=ArptLpQiKfI&list=PLx5pnFXdPTRzWla0RaOxALTSTnVq53fKL)
+
+## 🎯 Trường hợp sử dụng
 
 - 🤖 Chatbots
-- 🕵️ Các tác nhân tự động
-- 📈 Xử lý các mô hình kinh tế
-- 🎮 NPCs trong các trò chơi điện tử
-- 🧠 Giao dịch (Trading)
+- 🕵️ Tác nhân tự động
+- 📈 Xử lý quy trình kinh doanh
+- 🎮 NPC trong trò chơi điện tử
+- 🧠 Giao dịch
 
-## 🚀 Bắt đầu
+## 🚀 Bắt đầu nhanh
 
-### Điều kiện tiên quyết
+### Yêu cầu
 
 - [Python 2.7+](https://www.python.org/downloads/)
 - [Node.js 23+](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 - [pnpm](https://pnpm.io/installation)
 
-> **Chú ý cho người dùng Windows:** [WSL 2](https://learn.microsoft.com/de-de/windows/wsl/install-manual) là bắt buộc.
+> **Lưu ý cho người dùng Windows:** [WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install-manual) là cần thiết.
 
-### Sử dụng phiên bản Starters (Khuyến nghị)
+### Sử dụng Starter (Khuyến nghị)
 
 ```bash
 git clone https://github.com/elizaos/eliza-starter.git
-
+cd eliza-starter
 cp .env.example .env
-
-pnpm i && pnpm start
+pnpm i && pnpm build && pnpm start
 ```
 
-Sau đó hãy đọc [Tài liệu](https://elizaos.github.io/eliza/), để học cách để tùy chỉnh Eliza của bạn.
+Sau đó đọc [Tài liệu](https://elizaos.github.io/eliza/) để tìm hiểu cách tùy chỉnh Eliza của bạn.
 
-### Khởi động Eliza theo cách thủ công (Chỉ khuyến khích nếu bạn biết mình đang làm gì)
+### Khởi động Eliza thủ công (Chỉ khuyến nghị nếu bạn biết mình đang làm gì)
 
 ```bash
-# Sao chép repository
+# Clone kho lưu trữ
 git clone https://github.com/elizaos/eliza.git
 
-# Kiểm tra bản phát hành mới nhất
-# Dự án này cải tiến rất nhanh, vì vậy chúng tôi khuyên bạn nên kiểm tra bản phát hành mới nhất
+# Chuyển sang phiên bản phát hành mới nhất
+# Dự án này phát triển nhanh, vì vậy chúng tôi khuyến nghị chuyển sang phiên bản phát hành mới nhất
 git checkout $(git describe --tags --abbrev=0)
 ```
 
-### Bắt đầu Eliza với Gitpod
+### Khởi động Eliza với Gitpod
 
-[![Mở Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/elizaos/eliza/tree/main)
+[![Mở trong Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/elizaos/eliza/tree/main)
 
 ### Chỉnh sửa tệp .env
 
-Sao chép .env.example vào .env và điền các giá trị thích hợp.
+Sao chép .env.example thành .env và điền các giá trị thích hợp.
 
 ```
 cp .env.example .env
 ```
 
-Lưu ý: .env là tùy chọn. Nếu bạn đang có kế hoạch chạy nhiều tác nhân riêng biệt, bạn có thể truyền secret qua định dạng JSON.
+Lưu ý: .env là tùy chọn. Nếu bạn dự định chạy nhiều tác nhân khác nhau, bạn có thể truyền các bí mật thông qua JSON của nhân vật
 
 ### Tự động khởi động Eliza
 
-Điều này sẽ chạy mọi thứ để thiết lập dự án và khởi động bot với tính cách (character) mặc định.
+Điều này sẽ chạy mọi thứ để thiết lập dự án và khởi động bot với nhân vật mặc định.
 
 ```bash
 sh scripts/start.sh
 ```
 
-### Chỉnh sửa tập tin tính cách
+### Chỉnh sửa tệp nhân vật
 
-1. Mở `agent/src/character.ts`, để chỉnh sửa tính cách mặc định. Bỏ chú thích và chỉnh sửa.
+1. Mở `packages/core/src/defaultCharacter.ts` để chỉnh sửa nhân vật mặc định. Bỏ chú thích và chỉnh sửa.
 
-2. Để chạy các tính cách tùy chỉnh:
+2. Để tải các nhân vật tùy chỉnh:
     - Sử dụng `pnpm start --characters="path/to/your/character.json"`
-    - Nhiều tính cách có thể được chạy cùng lúc với nhau
+    - Nhiều tệp nhân vật có thể được tải đồng thời
 3. Kết nối với X (Twitter)
-    - Thay đổi `"clients": []` thành `"clients": ["twitter"]` ở trong tập tính cách (character) để kết nối với X.
+    - thay đổi `"clients": []` thành `"clients": ["twitter"]` trong tệp nhân vật để kết nối với X
 
-### Bắt đầu Eliza theo cách thủ công
+### Khởi động Eliza thủ công
 
 ```bash
 pnpm i
 pnpm build
 pnpm start
 
-# Dự án cải tiến rất nhanh, đôi khi bạn cần phải dọn dẹp dự án nếu bạn quay lại dự án
+# Dự án phát triển nhanh, đôi khi bạn cần làm sạch dự án nếu bạn quay lại dự án
 pnpm clean
 ```
 
 #### Yêu cầu bổ sung
 
-Bạn có thể cần cài đặt Sharp. Nếu bạn thấy lỗi khi khởi động, hãy thử cài đặt bằng lệnh sau:
+Bạn có thể cần cài đặt Sharp. Nếu bạn thấy lỗi khi khởi động, hãy thử cài đặt nó với lệnh sau:
 
 ```
 pnpm install --include=optional sharp
 ```
 
-### Cộng đồng & Liên hệ
+### Cộng đồng & liên hệ
 
-- [GitHub Issues](https://github.com/elizaos/eliza/issues). Phù hợp nhất cho: các lỗi bạn gặp phải khi sử dụng Eliza và các đề xuất tính năng.
-- [Discord](https://discord.gg/ai16z). Phù hợp nhất cho: chia sẻ ứng dụng của bạn và giao lưu với cộng đồng.
+- [Vấn đề trên GitHub](https://github.com/elizaos/eliza/issues). Tốt nhất cho: lỗi bạn gặp phải khi sử dụng Eliza và đề xuất tính năng.
+- [Discord](https://discord.gg/ai16z). Tốt nhất cho: chia sẻ ứng dụng của bạn và giao lưu với cộng đồng.
 
-## Người đóng góp
+## Những người đóng góp
 
 <a href="https://github.com/elizaos/eliza/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=elizaos/eliza" />
 </a>
 
-## Lịch sử Star cho repo
+## Lịch sử sao
 
-[![Star History Chart](https://api.star-history.com/svg?repos=elizaos/eliza&type=Date)](https://star-history.com/#elizaos/eliza&Date)
+[![Biểu đồ Lịch sử Sao](https://api.star-history.com/svg?repos=elizaos/eliza&type=Date)](https://star-history.com/#elizaos/eliza&Date)
