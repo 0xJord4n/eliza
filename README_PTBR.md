@@ -23,7 +23,7 @@
 - 💾 Memória recuperável e armazenamento de documentos
 - 🚀 Altamente extensível - crie suas próprias ações e clientes
 - ☁️ Suporta muitos modelos (Llama local, OpenAI, Anthropic, Groq, etc.)
-- 📦 Funciona perfeitamente!
+- 📦 Funciona imediatamente!
 
 ## Tutoriais em Vídeo
 
@@ -56,9 +56,9 @@ cp .env.example .env
 pnpm i && pnpm build && pnpm start
 ```
 
-Depois leia a [Documentação](https://elizaos.github.io/eliza/) para aprender como personalizar seu Eliza.
+Depois leia a [Documentação](https://elizaos.github.io/eliza/) para aprender como personalizar sua Eliza.
 
-### Inicie Eliza Manualmente (Recomendado apenas se você souber o que está fazendo)
+### Iniciar Eliza Manualmente (Recomendado apenas se você souber o que está fazendo)
 
 ```bash
 # Clone o repositório
@@ -69,7 +69,7 @@ git clone https://github.com/elizaos/eliza.git
 git checkout $(git describe --tags --abbrev=0)
 ```
 
-### Inicie Eliza com Gitpod
+### Iniciar Eliza com Gitpod
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/elizaos/eliza/tree/main)
 
@@ -83,7 +83,7 @@ cp .env.example .env
 
 Nota: .env é opcional. Se você planeja executar múltiplos agentes distintos, pode passar segredos através do JSON do personagem.
 
-### Inicie Eliza Automaticamente
+### Iniciar Eliza Automaticamente
 
 Isso executará tudo para configurar o projeto e iniciar o bot com o personagem padrão.
 
@@ -98,10 +98,10 @@ sh scripts/start.sh
 2. Para carregar personagens personalizados:
     - Use `pnpm start --characters="path/to/your/character.json"`
     - Múltiplos arquivos de personagens podem ser carregados simultaneamente
-3. Conecte-se com X (Twitter)
+3. Conectar com X (Twitter)
     - mude `"clients": []` para `"clients": ["twitter"]` no arquivo de personagem para conectar com X
 
-### Inicie Eliza Manualmente
+### Iniciar Eliza Manualmente
 
 ```bash
 pnpm i
@@ -122,7 +122,7 @@ pnpm install --include=optional sharp
 
 ### Comunidade & contato
 
-- [GitHub Issues](https://github.com/elizaos/eliza/issues). Melhor para: bugs que você encontrar usando Eliza e propostas de funcionalidades.
+- [GitHub Issues](https://github.com/elizaos/eliza/issues). Melhor para: bugs que você encontra usando Eliza e propostas de funcionalidades.
 - [Discord](https://discord.gg/ai16z). Melhor para: compartilhar suas aplicações e interagir com a comunidade.
 
 ## Contribuidores

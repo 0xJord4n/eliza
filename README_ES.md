@@ -39,7 +39,7 @@
 
 ## 🚀 Inicio Rápido
 
-### Prerrequisitos
+### Requisitos Previos
 
 - [Python 2.7+](https://www.python.org/downloads/)
 - [Node.js 23+](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
@@ -69,7 +69,7 @@ git clone https://github.com/elizaos/eliza.git
 git checkout $(git describe --tags --abbrev=0)
 ```
 
-### Iniciar Eliza con Gitpod
+### Inicia Eliza con Gitpod
 
 [![Abrir en Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/elizaos/eliza/tree/main)
 
@@ -83,7 +83,7 @@ cp .env.example .env
 
 Nota: .env es opcional. Si planeas ejecutar múltiples agentes distintos, puedes pasar secretos a través del JSON del personaje.
 
-### Iniciar Eliza Automáticamente
+### Inicia Eliza Automáticamente
 
 Esto ejecutará todo para configurar el proyecto e iniciar el bot con el personaje predeterminado.
 
@@ -91,17 +91,17 @@ Esto ejecutará todo para configurar el proyecto e iniciar el bot con el persona
 sh scripts/start.sh
 ```
 
-### Edita el archivo de personaje
+### Edita el archivo del personaje
 
 1. Abre `packages/core/src/defaultCharacter.ts` para modificar el personaje predeterminado. Descomenta y edita.
 
 2. Para cargar personajes personalizados:
     - Usa `pnpm start --characters="path/to/your/character.json"`
     - Se pueden cargar múltiples archivos de personajes simultáneamente
-3. Conectar con X (Twitter)
-    - cambia `"clients": []` a `"clients": ["twitter"]` en el archivo de personaje para conectar con X
+3. Conéctate con X (Twitter)
+    - cambia `"clients": []` a `"clients": ["twitter"]` en el archivo del personaje para conectarte con X
 
-### Iniciar Eliza Manualmente
+### Inicia Eliza Manualmente
 
 ```bash
 pnpm i

@@ -71,7 +71,7 @@ git checkout $(git describe --tags --abbrev=0)
 
 ### Démarrer Eliza avec Gitpod
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/elizaos/eliza/tree/main)
+[![Ouvrir dans Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/elizaos/eliza/tree/main)
 
 ### Modifier le fichier .env
 
@@ -133,4 +133,4 @@ pnpm install --include=optional sharp
 
 ## Historique des étoiles
 
-[![Star History Chart](https://api.star-history.com/svg?repos=elizaos/eliza&type=Date)](https://star-history.com/#elizaos/eliza&Date)
+[![Graphique de l'historique des étoiles](https://api.star-history.com/svg?repos=elizaos/eliza&type=Date)](https://star-history.com/#elizaos/eliza&Date)

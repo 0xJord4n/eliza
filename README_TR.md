@@ -123,7 +123,7 @@ pnpm install --include=optional sharp
 ### Topluluk ve İletişim
 
 - [GitHub Sorunları](https://github.com/elizaos/eliza/issues). En iyi kullanım: Eliza'yı kullanırken karşılaştığınız hatalar ve özellik önerileri.
-- [Discord](https://discord.gg/ai16z). En iyi kullanım: uygulamalarınızı paylaşmak ve toplulukla vakit geçirmek.
+- [Discord](https://discord.gg/ai16z). En iyi kullanım: Uygulamalarınızı paylaşmak ve toplulukla vakit geçirmek.
 
 ## Katkıda Bulunanlar
 

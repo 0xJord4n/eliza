@@ -131,6 +131,6 @@ pnpm install --include=optional sharp
   <img src="https://contrib.rocks/image?repo=elizaos/eliza" />
 </a>
 
-## Lịch sử Ngôi sao
+## Lịch sử sao
 
-[![Biểu đồ Lịch sử Ngôi sao](https://api.star-history.com/svg?repos=elizaos/eliza&type=Date)](https://star-history.com/#elizaos/eliza&Date)
+[![Biểu đồ Lịch sử Sao](https://api.star-history.com/svg?repos=elizaos/eliza&type=Date)](https://star-history.com/#elizaos/eliza&Date)

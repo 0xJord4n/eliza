@@ -18,7 +18,7 @@
 
 - 🛠️ Voll ausgestattete Discord-, Twitter- und Telegram-Konnektoren
 - 🔗 Unterstützung für jedes Modell (Llama, Grok, OpenAI, Anthropic, etc.)
-- 👥 Unterstützung für mehrere Agenten und Räume
+- 👥 Unterstützung für Multi-Agenten und Räume
 - 📚 Einfaches Einlesen und Interagieren mit Ihren Dokumenten
 - 💾 Abrufbarer Speicher und Dokumentenspeicher
 - 🚀 Hochgradig erweiterbar - Erstellen Sie Ihre eigenen Aktionen und Clients
@@ -45,7 +45,7 @@
 - [Node.js 23+](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 - [pnpm](https://pnpm.io/installation)
 
-> **Hinweis für Windows-Benutzer:** [WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install-manual) ist erforderlich.
+> **Hinweis für Windows-Nutzer:** [WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install-manual) ist erforderlich.
 
 ### Verwenden Sie den Starter (Empfohlen)
 
@@ -65,7 +65,7 @@ Lesen Sie dann die [Dokumentation](https://elizaos.github.io/eliza/), um zu erfa
 git clone https://github.com/elizaos/eliza.git
 
 # Auf den neuesten Release wechseln
-# Dieses Projekt entwickelt sich schnell, daher empfehlen wir, den neuesten Release zu verwenden
+# Dieses Projekt entwickelt sich schnell weiter, daher empfehlen wir, den neuesten Release zu verwenden
 git checkout $(git describe --tags --abbrev=0)
 ```
 
@@ -81,7 +81,7 @@ Kopieren Sie .env.example zu .env und füllen Sie die entsprechenden Werte aus.
 cp .env.example .env
 ```
 
-Hinweis: .env ist optional. Wenn Sie planen, mehrere unterschiedliche Agenten zu betreiben, können Sie Geheimnisse über das Charakter-JSON übergeben.
+Hinweis: .env ist optional. Wenn Sie planen, mehrere unterschiedliche Agenten zu betreiben, können Sie Geheimnisse über die Charakter-JSON übergeben.
 
 ### Eliza automatisch starten
 
@@ -108,7 +108,7 @@ pnpm i
 pnpm build
 pnpm start
 
-# Das Projekt entwickelt sich schnell, manchmal müssen Sie das Projekt bereinigen, wenn Sie zurückkehren
+# Das Projekt entwickelt sich schnell weiter, manchmal müssen Sie das Projekt bereinigen, wenn Sie zurückkehren
 pnpm clean
 ```
 
@@ -122,8 +122,8 @@ pnpm install --include=optional sharp
 
 ### Community & Kontakt
 
-- [GitHub Issues](https://github.com/elizaos/eliza/issues). Am besten geeignet für: Fehler, die Sie bei der Verwendung von Eliza feststellen, und Funktionsvorschläge.
-- [Discord](https://discord.gg/ai16z). Am besten geeignet für: Teilen Ihrer Anwendungen und Austausch mit der Community.
+- [GitHub Issues](https://github.com/elizaos/eliza/issues). Am besten für: Fehler, die Sie bei der Verwendung von Eliza feststellen, und Funktionsvorschläge.
+- [Discord](https://discord.gg/ai16z). Am besten für: Teilen Sie Ihre Anwendungen und verbringen Sie Zeit mit der Community.
 
 ## Mitwirkende
 

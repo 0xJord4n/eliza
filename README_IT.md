@@ -85,7 +85,7 @@ Nota: .env è opzionale. Se hai intenzione di eseguire più agenti distinti, puo
 
 ### Avvio Automatico di Eliza
 
-Questo eseguirà tutto per impostare il progetto e avviare il bot con il personaggio predefinito.
+Questo eseguirà tutto per configurare il progetto e avviare il bot con il personaggio predefinito.
 
 ```bash
 sh scripts/start.sh
@@ -98,7 +98,7 @@ sh scripts/start.sh
 2. Per caricare personaggi personalizzati:
     - Usa `pnpm start --characters="path/to/your/character.json"`
     - Più file di personaggi possono essere caricati contemporaneamente
-3. Connetti con X (Twitter)
+3. Connettiti con X (Twitter)
     - cambia `"clients": []` in `"clients": ["twitter"]` nel file del personaggio per connetterti con X
 
 ### Avvia Eliza Manualmente

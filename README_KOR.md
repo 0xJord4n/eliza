@@ -23,7 +23,7 @@
 - 💾 검색 가능한 메모리 및 문서 저장소
 - 🚀 매우 확장 가능 - 자신만의 액션과 클라이언트 생성
 - ☁️ 다양한 모델 지원 (로컬 Llama, OpenAI, Anthropic, Groq 등)
-- 📦 그냥 작동합니다!
+- 📦 바로 작동!
 
 ## 비디오 튜토리얼
 
@@ -39,7 +39,7 @@
 
 ## 🚀 빠른 시작
 
-### 사전 요구 사항
+### 사전 준비
 
 - [Python 2.7+](https://www.python.org/downloads/)
 - [Node.js 23+](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
@@ -114,7 +114,7 @@ pnpm clean
 
 #### 추가 요구 사항
 
-시작 시 오류가 발생하면 Sharp를 설치해야 할 수 있습니다. 다음 명령으로 설치해보세요:
+시작 시 오류가 발생하면 Sharp를 설치해야 할 수 있습니다. 다음 명령으로 설치해 보세요:
 
 ```
 pnpm install --include=optional sharp

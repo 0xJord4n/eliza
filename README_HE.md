@@ -33,7 +33,7 @@
 
 - 🤖 צ'אטבוטים
 - 🕵️ סוכנים אוטונומיים
-- 📈 ניהול תהליכים עסקיים
+- 📈 טיפול בתהליכים עסקיים
 - 🎮 NPCs במשחקי וידאו
 - 🧠 מסחר
 
@@ -47,7 +47,7 @@
 
 > **הערה למשתמשי Windows:** [WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install-manual) נדרש.
 
-### השתמש ב-Starter (מומלץ)
+### השתמש במתחיל (מומלץ)
 
 ```bash
 git clone https://github.com/elizaos/eliza-starter.git
@@ -64,8 +64,8 @@ pnpm i && pnpm build && pnpm start
 # שיבוט המאגר
 git clone https://github.com/elizaos/eliza.git
 
-# מעבר לגרסה האחרונה
-# הפרויקט מתעדכן במהירות, לכן אנו ממליצים לעבור לגרסה האחרונה
+# בדוק את הגרסה האחרונה
+# הפרויקט מתעדכן במהירות, לכן אנו ממליצים לבדוק את הגרסה האחרונה
 git checkout $(git describe --tags --abbrev=0)
 ```
 
@@ -75,7 +75,7 @@ git checkout $(git describe --tags --abbrev=0)
 
 ### ערוך את קובץ ה-.env
 
-העתק את .env.example ל-.env ומלא את הערכים המתאימים.
+העתק .env.example ל-.env ומלא את הערכים המתאימים.
 
 ```
 cp .env.example .env
@@ -122,8 +122,8 @@ pnpm install --include=optional sharp
 
 ### קהילה ויצירת קשר
 
-- [בעיות GitHub](https://github.com/elizaos/eliza/issues). הכי טוב עבור: באגים שאתה נתקל בהם בשימוש באליזה, והצעות לפיצ'רים.
-- [Discord](https://discord.gg/ai16z). הכי טוב עבור: שיתוף היישומים שלך והתחברות עם הקהילה.
+- [בעיות ב-GitHub](https://github.com/elizaos/eliza/issues). הכי טוב עבור: באגים שאתה נתקל בהם בשימוש באליזה, והצעות לפיצ'רים.
+- [דיסקורד](https://discord.gg/ai16z). הכי טוב עבור: שיתוף היישומים שלך והתחברות עם הקהילה.
 
 ## תורמים
 
