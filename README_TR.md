@@ -64,8 +64,8 @@ Daha sonra Eliza'nızı nasıl özelleştireceğinizi öğrenmek için [Doküman
 # Depoyu klonlayın
 git clone https://github.com/elizaos/eliza.git
 
-# En son sürüme geçiş yapın
-# Bu proje hızlı bir şekilde iterasyon yapar, bu yüzden en son sürüme geçiş yapmanızı öneririz
+# En son sürüme geçin
+# Bu proje hızlı bir şekilde iterasyon yapar, bu yüzden en son sürüme geçmenizi öneririz
 git checkout $(git describe --tags --abbrev=0)
 ```
 
@@ -98,7 +98,7 @@ sh scripts/start.sh
 2. Özel karakterleri yüklemek için:
     - `pnpm start --characters="path/to/your/character.json"` komutunu kullanın
     - Birden fazla karakter dosyası aynı anda yüklenebilir
-3. X (Twitter) ile bağlantı kurun
+3. X (Twitter) ile bağlanın
     - karakter dosyasında `"clients": []` ifadesini `"clients": ["twitter"]` olarak değiştirin
 
 ### Eliza'yı Manuel Başlatın
@@ -122,8 +122,8 @@ pnpm install --include=optional sharp
 
 ### Topluluk ve İletişim
 
-- [GitHub Sorunları](https://github.com/elizaos/eliza/issues). En iyi kullanım alanı: Eliza'yı kullanırken karşılaştığınız hatalar ve özellik önerileri.
-- [Discord](https://discord.gg/ai16z). En iyi kullanım alanı: uygulamalarınızı paylaşmak ve toplulukla vakit geçirmek.
+- [GitHub Sorunları](https://github.com/elizaos/eliza/issues). En iyi kullanım: Eliza'yı kullanırken karşılaştığınız hatalar ve özellik önerileri.
+- [Discord](https://discord.gg/ai16z). En iyi kullanım: uygulamalarınızı paylaşmak ve toplulukla vakit geçirmek.
 
 ## Katkıda Bulunanlar
 

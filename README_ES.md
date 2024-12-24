@@ -69,9 +69,9 @@ git clone https://github.com/elizaos/eliza.git
 git checkout $(git describe --tags --abbrev=0)
 ```
 
-### Inicia Eliza con Gitpod
+### Iniciar Eliza con Gitpod
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/elizaos/eliza/tree/main)
+[![Abrir en Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/elizaos/eliza/tree/main)
 
 ### Edita el archivo .env
 
@@ -83,7 +83,7 @@ cp .env.example .env
 
 Nota: .env es opcional. Si planeas ejecutar múltiples agentes distintos, puedes pasar secretos a través del JSON del personaje.
 
-### Inicia Eliza Automáticamente
+### Iniciar Eliza Automáticamente
 
 Esto ejecutará todo para configurar el proyecto e iniciar el bot con el personaje predeterminado.
 
@@ -98,10 +98,10 @@ sh scripts/start.sh
 2. Para cargar personajes personalizados:
     - Usa `pnpm start --characters="path/to/your/character.json"`
     - Se pueden cargar múltiples archivos de personajes simultáneamente
-3. Conéctate con X (Twitter)
-    - cambia `"clients": []` a `"clients": ["twitter"]` en el archivo de personaje para conectarte con X
+3. Conectar con X (Twitter)
+    - cambia `"clients": []` a `"clients": ["twitter"]` en el archivo de personaje para conectar con X
 
-### Inicia Eliza Manualmente
+### Iniciar Eliza Manualmente
 
 ```bash
 pnpm i
@@ -122,7 +122,7 @@ pnpm install --include=optional sharp
 
 ### Comunidad y contacto
 
-- [GitHub Issues](https://github.com/elizaos/eliza/issues). Mejor para: errores que encuentres usando Eliza y propuestas de características.
+- [Problemas en GitHub](https://github.com/elizaos/eliza/issues). Mejor para: errores que encuentres usando Eliza y propuestas de características.
 - [Discord](https://discord.gg/ai16z). Mejor para: compartir tus aplicaciones y pasar el rato con la comunidad.
 
 ## Contribuidores
@@ -133,4 +133,4 @@ pnpm install --include=optional sharp
 
 ## Historial de Estrellas
 
-[![Star History Chart](https://api.star-history.com/svg?repos=elizaos/eliza&type=Date)](https://star-history.com/#elizaos/eliza&Date)
+[![Gráfico de Historial de Estrellas](https://api.star-history.com/svg?repos=elizaos/eliza&type=Date)](https://star-history.com/#elizaos/eliza&Date)

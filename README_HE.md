@@ -47,7 +47,7 @@
 
 > **הערה למשתמשי Windows:** [WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install-manual) נדרש.
 
-### השתמש במתחיל (מומלץ)
+### השתמש ב-Starter (מומלץ)
 
 ```bash
 git clone https://github.com/elizaos/eliza-starter.git
@@ -64,8 +64,8 @@ pnpm i && pnpm build && pnpm start
 # שיבוט המאגר
 git clone https://github.com/elizaos/eliza.git
 
-# בדוק את הגרסה האחרונה
-# הפרויקט מתעדכן במהירות, לכן אנו ממליצים לבדוק את הגרסה האחרונה
+# מעבר לגרסה האחרונה
+# הפרויקט מתעדכן במהירות, לכן אנו ממליצים לעבור לגרסה האחרונה
 git checkout $(git describe --tags --abbrev=0)
 ```
 
@@ -75,7 +75,7 @@ git checkout $(git describe --tags --abbrev=0)
 
 ### ערוך את קובץ ה-.env
 
-העתק .env.example ל-.env ומלא את הערכים המתאימים.
+העתק את .env.example ל-.env ומלא את הערכים המתאימים.
 
 ```
 cp .env.example .env
@@ -93,7 +93,7 @@ sh scripts/start.sh
 
 ### ערוך את קובץ הדמות
 
-1. פתח `packages/core/src/defaultCharacter.ts` כדי לשנות את הדמות המוגדרת כברירת מחדל. בטל את ההערה וערוך.
+1. פתח `packages/core/src/defaultCharacter.ts` כדי לשנות את הדמות המוגדרת כברירת מחדל. בטל הערה וערוך.
 
 2. כדי לטעון דמויות מותאמות אישית:
     - השתמש ב-`pnpm start --characters="path/to/your/character.json"`
@@ -122,7 +122,7 @@ pnpm install --include=optional sharp
 
 ### קהילה ויצירת קשר
 
-- [בעיות ב-GitHub](https://github.com/elizaos/eliza/issues). הכי טוב עבור: באגים שאתה נתקל בהם בשימוש באליזה, והצעות לפיצ'רים.
+- [בעיות GitHub](https://github.com/elizaos/eliza/issues). הכי טוב עבור: באגים שאתה נתקל בהם בשימוש באליזה, והצעות לפיצ'רים.
 - [Discord](https://discord.gg/ai16z). הכי טוב עבור: שיתוף היישומים שלך והתחברות עם הקהילה.
 
 ## תורמים

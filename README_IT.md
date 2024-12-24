@@ -58,7 +58,7 @@ pnpm i && pnpm build && pnpm start
 
 Poi leggi la [Documentazione](https://elizaos.github.io/eliza/) per imparare come personalizzare il tuo Eliza.
 
-### Avvia Manualmente Eliza (Consigliato solo se sai cosa stai facendo)
+### Avvia Eliza Manualmente (Consigliato solo se sai cosa stai facendo)
 
 ```bash
 # Clona il repository
@@ -98,10 +98,10 @@ sh scripts/start.sh
 2. Per caricare personaggi personalizzati:
     - Usa `pnpm start --characters="path/to/your/character.json"`
     - Più file di personaggi possono essere caricati contemporaneamente
-3. Connettiti con X (Twitter)
+3. Connetti con X (Twitter)
     - cambia `"clients": []` in `"clients": ["twitter"]` nel file del personaggio per connetterti con X
 
-### Avvia Manualmente Eliza
+### Avvia Eliza Manualmente
 
 ```bash
 pnpm i

@@ -45,7 +45,7 @@
 - [Node.js 23+](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 - [pnpm](https://pnpm.io/installation)
 
-> **Lưu ý cho người dùng Windows:** [WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install-manual) là bắt buộc.
+> **Lưu ý cho người dùng Windows:** [WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install-manual) là cần thiết.
 
 ### Sử dụng Starter (Khuyến nghị)
 
@@ -131,6 +131,6 @@ pnpm install --include=optional sharp
   <img src="https://contrib.rocks/image?repo=elizaos/eliza" />
 </a>
 
-## Lịch sử sao
+## Lịch sử Ngôi sao
 
-[![Biểu đồ Lịch sử Sao](https://api.star-history.com/svg?repos=elizaos/eliza&type=Date)](https://star-history.com/#elizaos/eliza&Date)
+[![Biểu đồ Lịch sử Ngôi sao](https://api.star-history.com/svg?repos=elizaos/eliza&type=Date)](https://star-history.com/#elizaos/eliza&Date)

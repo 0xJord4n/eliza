@@ -16,14 +16,14 @@
 
 ## ✨ 기능
 
-- 🛠️ 완전한 기능의 Discord, Twitter 및 Telegram 커넥터
+- 🛠️ 디스코드, 트위터, 텔레그램의 완전한 기능의 커넥터
 - 🔗 모든 모델 지원 (Llama, Grok, OpenAI, Anthropic 등)
 - 👥 다중 에이전트 및 룸 지원
 - 📚 문서를 쉽게 수집하고 상호작용
 - 💾 검색 가능한 메모리 및 문서 저장소
 - 🚀 매우 확장 가능 - 자신만의 액션과 클라이언트 생성
 - ☁️ 다양한 모델 지원 (로컬 Llama, OpenAI, Anthropic, Groq 등)
-- 📦 바로 작동!
+- 📦 그냥 작동합니다!
 
 ## 비디오 튜토리얼
 
@@ -39,7 +39,7 @@
 
 ## 🚀 빠른 시작
 
-### 사전 준비
+### 사전 요구 사항
 
 - [Python 2.7+](https://www.python.org/downloads/)
 - [Node.js 23+](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
@@ -81,11 +81,11 @@ git checkout $(git describe --tags --abbrev=0)
 cp .env.example .env
 ```
 
-참고: .env는 선택 사항입니다. 여러 개의 개별 에이전트를 실행할 계획이라면, 캐릭터 JSON을 통해 비밀 정보를 전달할 수 있습니다.
+참고: .env는 선택 사항입니다. 여러 개의 개별 에이전트를 실행하려는 경우, 캐릭터 JSON을 통해 비밀을 전달할 수 있습니다.
 
 ### 엘리자 자동 시작
 
-이 명령은 프로젝트를 설정하고 기본 캐릭터로 봇을 시작하는 모든 작업을 수행합니다.
+이 명령은 프로젝트를 설정하고 기본 캐릭터로 봇을 시작하는 모든 작업을 실행합니다.
 
 ```bash
 sh scripts/start.sh
@@ -98,7 +98,7 @@ sh scripts/start.sh
 2. 사용자 정의 캐릭터를 로드하려면:
     - `pnpm start --characters="path/to/your/character.json"`을 사용하세요.
     - 여러 캐릭터 파일을 동시에 로드할 수 있습니다.
-3. X (Twitter)와 연결:
+3. X (트위터)와 연결:
     - 캐릭터 파일에서 `"clients": []`를 `"clients": ["twitter"]`로 변경하여 X와 연결하세요.
 
 ### 엘리자 수동 시작
@@ -114,7 +114,7 @@ pnpm clean
 
 #### 추가 요구 사항
 
-시작 시 오류가 발생하면 Sharp를 설치해야 할 수 있습니다. 다음 명령으로 설치해 보세요:
+시작 시 오류가 발생하면 Sharp를 설치해야 할 수 있습니다. 다음 명령으로 설치해보세요:
 
 ```
 pnpm install --include=optional sharp
@@ -123,7 +123,7 @@ pnpm install --include=optional sharp
 ### 커뮤니티 & 연락처
 
 - [GitHub 이슈](https://github.com/elizaos/eliza/issues). 엘리자를 사용하면서 발생하는 버그 및 기능 제안에 가장 적합합니다.
-- [Discord](https://discord.gg/ai16z). 애플리케이션을 공유하고 커뮤니티와 함께하는 데 가장 적합합니다.
+- [디스코드](https://discord.gg/ai16z). 애플리케이션을 공유하고 커뮤니티와 함께하는 데 가장 적합합니다.
 
 ## 기여자
 

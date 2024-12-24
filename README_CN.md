@@ -47,7 +47,7 @@
 
 > **Windows 用户注意：** 需要 [WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install-manual)。
 
-### 使用入门模板（推荐）
+### 使用入门（推荐）
 
 ```bash
 git clone https://github.com/elizaos/eliza-starter.git
@@ -122,7 +122,7 @@ pnpm install --include=optional sharp
 
 ### 社区与联系
 
-- [GitHub Issues](https://github.com/elizaos/eliza/issues)。最佳用途：使用 Eliza 时遇到的错误和功能提案。
+- [GitHub Issues](https://github.com/elizaos/eliza/issues)。最佳用途：使用 Eliza 时遇到的错误和功能建议。
 - [Discord](https://discord.gg/ai16z)。最佳用途：分享您的应用程序并与社区交流。
 
 ## 贡献者

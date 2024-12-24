@@ -21,7 +21,7 @@
 - 👥 Unterstützung für mehrere Agenten und Räume
 - 📚 Einfaches Einlesen und Interagieren mit Ihren Dokumenten
 - 💾 Abrufbarer Speicher und Dokumentenspeicher
-- 🚀 Hochgradig erweiterbar - erstellen Sie Ihre eigenen Aktionen und Clients
+- 🚀 Hochgradig erweiterbar - Erstellen Sie Ihre eigenen Aktionen und Clients
 - ☁️ Unterstützt viele Modelle (lokales Llama, OpenAI, Anthropic, Groq, etc.)
 - 📦 Funktioniert einfach!
 
@@ -65,7 +65,7 @@ Lesen Sie dann die [Dokumentation](https://elizaos.github.io/eliza/), um zu erfa
 git clone https://github.com/elizaos/eliza.git
 
 # Auf den neuesten Release wechseln
-# Dieses Projekt entwickelt sich schnell weiter, daher empfehlen wir, den neuesten Release zu verwenden
+# Dieses Projekt entwickelt sich schnell, daher empfehlen wir, den neuesten Release zu verwenden
 git checkout $(git describe --tags --abbrev=0)
 ```
 
@@ -81,7 +81,7 @@ Kopieren Sie .env.example zu .env und füllen Sie die entsprechenden Werte aus.
 cp .env.example .env
 ```
 
-Hinweis: .env ist optional. Wenn Sie planen, mehrere unterschiedliche Agenten zu betreiben, können Sie Geheimnisse über die Charakter-JSON übergeben.
+Hinweis: .env ist optional. Wenn Sie planen, mehrere unterschiedliche Agenten zu betreiben, können Sie Geheimnisse über das Charakter-JSON übergeben.
 
 ### Eliza automatisch starten
 
@@ -108,7 +108,7 @@ pnpm i
 pnpm build
 pnpm start
 
-# Das Projekt entwickelt sich schnell weiter, manchmal müssen Sie das Projekt bereinigen, wenn Sie zurückkehren
+# Das Projekt entwickelt sich schnell, manchmal müssen Sie das Projekt bereinigen, wenn Sie zurückkehren
 pnpm clean
 ```
 

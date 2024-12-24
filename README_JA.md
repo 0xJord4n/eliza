@@ -27,7 +27,7 @@
 
 ## ビデオチュートリアル
 
-[AIエージェント開発学校](https://www.youtube.com/watch?v=ArptLpQiKfI&list=PLx5pnFXdPTRzWla0RaOxALTSTnVq53fKL)
+[AIエージェント開発スクール](https://www.youtube.com/watch?v=ArptLpQiKfI&list=PLx5pnFXdPTRzWla0RaOxALTSTnVq53fKL)
 
 ## 🎯 使用例
 
@@ -56,7 +56,7 @@ cp .env.example .env
 pnpm i && pnpm build && pnpm start
 ```
 
-その後、[ドキュメント](https://elizaos.github.io/eliza/)を読んでElizaをカスタマイズする方法を学びましょう。
+その後、[ドキュメント](https://elizaos.github.io/eliza/)を読んで、Elizaをカスタマイズする方法を学びましょう。
 
 ### Elizaを手動で開始する（知識がある場合のみ推奨）
 
@@ -71,7 +71,7 @@ git checkout $(git describe --tags --abbrev=0)
 
 ### GitpodでElizaを開始
 
-[![Gitpodで開く](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/elizaos/eliza/tree/main)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/elizaos/eliza/tree/main)
 
 ### .envファイルを編集
 
@@ -85,7 +85,7 @@ cp .env.example .env
 
 ### Elizaを自動的に開始
 
-これにより、プロジェクトをセットアップし、デフォルトのキャラクターでボットを開始するためのすべてが実行されます。
+これにより、プロジェクトのセットアップとデフォルトキャラクターでのボットの開始がすべて実行されます。
 
 ```bash
 sh scripts/start.sh
@@ -93,7 +93,7 @@ sh scripts/start.sh
 
 ### キャラクターファイルを編集
 
-1. `packages/core/src/defaultCharacter.ts`を開いてデフォルトのキャラクターを変更します。コメントを外して編集します。
+1. `packages/core/src/defaultCharacter.ts`を開いてデフォルトキャラクターを変更します。コメントを外して編集します。
 
 2. カスタムキャラクターをロードするには:
     - `pnpm start --characters="path/to/your/character.json"`を使用
@@ -114,7 +114,7 @@ pnpm clean
 
 #### 追加の要件
 
-Sharpをインストールする必要があるかもしれません。起動時にエラーが表示された場合、次のコマンドでインストールを試みてください:
+Sharpをインストールする必要があるかもしれません。起動時にエラーが表示された場合は、次のコマンドでインストールを試みてください。
 
 ```
 pnpm install --include=optional sharp
@@ -133,4 +133,4 @@ pnpm install --include=optional sharp
 
 ## スター履歴
 
-[![スター履歴チャート](https://api.star-history.com/svg?repos=elizaos/eliza&type=Date)](https://star-history.com/#elizaos/eliza&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=elizaos/eliza&type=Date)](https://star-history.com/#elizaos/eliza&Date)
